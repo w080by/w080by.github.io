@@ -1,4 +1,4 @@
-function button() {
+function createParagraph() {
   let para = document.createElement('p');
   para.textContent = 'No, pls!!! Noooooooooooo, Im tickled';
   document.body.appendChild(para);
@@ -7,5 +7,5 @@ function button() {
 const buttons = document.querySelectorAll('button');
 
 for(let i = 0; i < buttons.length ; i++) {
-  buttons[i].addEventListener('click', button);
+  buttons[i].addEventListener('click', createParagraph);
 }
