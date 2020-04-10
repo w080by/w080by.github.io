@@ -7,5 +7,5 @@ function button() {
 const buttons = document.querySelectorAll('button');
 
 for(let i = 0; i < buttons.length ; i++) {
-  buttons[i].addEventListener('click', createParagraph);
+  buttons[i].addEventListener('click', button);
 }
